@@ -80,10 +80,10 @@ struct ContentView: View {
     
     func buttonColor(_ cell: String) -> Color {
         if cell == "AC" || cell == "*" {
-            return .blue
+            return .red
         }
         if cell == "-" || cell == "=" || operators.contains(cell) {
-            return .pink
+            return .orange
         }
         return .white
     }
